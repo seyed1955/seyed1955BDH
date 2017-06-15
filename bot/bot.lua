@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "Token" --Put You Token Here
+bot_token = "329747012:AAEF6qhrFKMtfAkSCG3BG3nFXZbdwlRtV8A" --Put You Token Here
 send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 157059515
+sudo_id = 200631609
 require('./bot/methods')
 require('./bot/utils')
 require('./libs/JSON')
@@ -152,9 +152,9 @@ function create_config( )
 	server_user = string.gsub(server_user, '%s+$', '')
 	server_user = string.gsub(server_user, '[\n\r]+', ' ') 
 	if server_user:match("^root$") then
-		BeyondTeam = '/root/BDReborn'
+		seyed1955 = '/root/seyed1955BDR'
 	elseif not server_user:match("^root$") then
-		BeyondTeam = '/home/'..server_user..'/BDReborn'
+		seyed1955 = '/home/'..server_user..'/seyed1955BDR'
 	end
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
@@ -162,28 +162,23 @@ function create_config( )
     "core",
     "plugins"
     },
-    sudo_users = {157059515},--Sudo users
+    sudo_users = {200631609,365028750},--Sudo users
     admins = {},
     disabled_channels = {},
-    moderation = {data = ''..BeyondTeam..'/data/moderation.json'},
-    info_text = [[*》Beyond Helper Bot V1.5*
-`》An helper bot of` *BDReborn* `based on` *BDMessenger*
+    moderation = {data = ''..seyed1955..'/data/moderation.json'},
+    info_text = [[*》Seyed1955BDHelper Bot V1.5*
+`》An helper bot of` *Seyed1955BD* 
 
-》[Beyond Helper](https://github.com/BeyondTeam/BDHelper)
+》[Seyed1955BDHelper](https://github.com/seyed1955/seyed1955BDH)
 
-*》Admins :*
-*》Founder & Developer :* [SoLiD](Telegram.Me/SoLiD)
-_》Developer :_ [ToOfan](Telegram.Me/ToOfan)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/MAKAN)
+*》Admin :*
+*》[seyed1955](telegram.me/seyed1955)
 
 *》Special thanks to :*
-》[Amir Bagheri](Telegram.Me/CodeLua)
-
-*》Our channel :*
 》[BeyondTeam](Telegram.Me/BeyondTeam)
 
-*》Our Site :*
-》[BeyondTeam](BeyondTeam.ir)
+*》Our channel :*
+》
 ]],
   }
   serialize_to_file(config, './data/config.lua')
