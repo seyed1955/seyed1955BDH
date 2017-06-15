@@ -149,7 +149,7 @@ end
   end
   return var
 end
-BDApi = '\n@'..string.reverse("maeTdnoyeB")
+BDApi = '\n<b>Channel:</b>@text_cti\n<b>Sudo pvesan:</b>@seyed1955_pv_bot'
 function is_admin1(user_id)
   local var = false
   local user = user_id
