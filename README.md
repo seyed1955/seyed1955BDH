@@ -1,7 +1,7 @@
 # [BDHelper](https://t.me/BDHelperBot)
 
 [![Bot API](http://img.shields.io/badge/Bot%20API-v3.0.0-00aced.svg)](https://core.telegram.org/bots/api)
-[![https://t.me/BeyondTeam](https://img.shields.io/badge/💬%20Telegram-BeyondTeam-00aced.svg)](https://t.me/BeyondTeam)
+[![https://t.me/text_cti](https://img.shields.io/badge/💬%20Telegram-text_cti-00aced.svg)](https://t.me/text_cti)
 
 ## Beyond Helper V1.5
 An Helper Bot For BDReborn Based On BDMessenger
@@ -19,15 +19,15 @@ An Helper Bot For BDReborn Based On BDMessenger
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/BeyondTeam/BDHelper.git
-cd BDHelper
+git clone https://github.com/seyed1955/seyed1955BDH.git
+cd seyed1955BDH
 chmod +x beyond.sh
 ./beyond.sh install
 ./beyond.sh 
 
 
 # For Auto Launch:
-cd BDHelper
+cd seyedBDH
 chmod 777 autobd.sh
 tmux
 ./autobd.sh
@@ -36,7 +36,7 @@ tmux
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/BDHelper.git && cd BDMessenger && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/seyed1955/seyed1955BDH.git && cd seyed1955BDH && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
 ```
 
 # Support and Development
